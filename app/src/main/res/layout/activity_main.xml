@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wang.administrator.pricticedemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_color_translucent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="ColorTranslucentBar" />
+    <Button
+        android:id="@+id/bt_image_translucent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="ImageTranslucentBar" />
+    <Button
+        android:id="@+id/bt_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Toolbar" />
+    <Button
+        android:id="@+id/bt_zhihutoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="ZhihuToolbar" />
+</LinearLayout>
